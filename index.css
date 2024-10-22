@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 2px solid red;
+}
+
+@media screen and (width < 700px ){
+    .data{
+        padding: 10px;
+    }
+}
+
+@media screen and (width >= 700px ){
+    .data{
+        padding: 30px;
+    }
+}
